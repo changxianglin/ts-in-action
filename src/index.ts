@@ -2,7 +2,8 @@
 // import './enum'
 // import './interface'
 // import './function'
-import './class'
+// import './class'
+import './advanceClass'
 
 let hello: string = 'Hello Typescript!'
 

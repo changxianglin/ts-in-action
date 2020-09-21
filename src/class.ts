@@ -10,12 +10,12 @@ class Dog {
   static food: string = 'bones'
 }
 
-console.log(Dog.prototype)
+// console.log(Dog.prototype)
 let dog = new Dog('wangwang')
-console.log(dog)
+// console.log(dog)
 // dog.pri()
 // dog.pro()
-console.log(Dog.food)
+// console.log(Dog.food)
 
 class Husky extends Dog {
   constructor(name: string, public color: string) {
@@ -26,4 +26,4 @@ class Husky extends Dog {
   }
   // color: string
 }
-console.log(Husky.food)
+// console.log(Husky.food)
