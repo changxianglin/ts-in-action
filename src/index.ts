@@ -4,7 +4,8 @@
 // import './function'
 // import './class'
 // import './advanceClass'
-import './class-interface'
+// import './class-interface'
+import './genencs'
 
 let hello: string = 'Hello Typescript!'
 
