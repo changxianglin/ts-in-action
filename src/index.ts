@@ -3,7 +3,8 @@
 // import './interface'
 // import './function'
 // import './class'
-import './advanceClass'
+// import './advanceClass'
+import './class-interface'
 
 let hello: string = 'Hello Typescript!'
 
