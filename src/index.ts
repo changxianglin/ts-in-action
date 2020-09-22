@@ -5,7 +5,8 @@
 // import './class'
 // import './advanceClass'
 // import './class-interface'
-import './genencs'
+// import './genencs'
+import './genencs2'
 
 let hello: string = 'Hello Typescript!'
 
