@@ -9,7 +9,7 @@
 // import './genencs2'
 // import './advanced'
 // import './advanced2'
-import './advanceProtection'
+// import './advanceProtection'
 
 let hello: string = 'Hello Typescript!'
 
