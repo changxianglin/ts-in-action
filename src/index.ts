@@ -10,6 +10,7 @@
 // import './advanced'
 // import './advanced2'
 // import './advanceProtection'
+import './advanced3'
 
 let hello: string = 'Hello Typescript!'
 
