@@ -12,7 +12,9 @@
 // import './advanceProtection'
 // import './advanced3'
 
-import './uniontype'
+// import './uniontype'
+
+import './indexAdvance'
 
 let hello: string = 'Hello Typescript!'
 
