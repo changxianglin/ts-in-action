@@ -19,7 +19,8 @@
 // import './case'
 
 // import './es6/c'
-import './node/c.node'
+// import './node/c.node'
+import './name'
 
 let hello: string = 'Hello Typescript!'
 
