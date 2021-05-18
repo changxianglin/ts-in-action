@@ -16,7 +16,10 @@
 
 // import './indexAdvance'
 // import './mapping'
-import './case'
+// import './case'
+
+// import './es6/c'
+import './node/c.node'
 
 let hello: string = 'Hello Typescript!'
 
