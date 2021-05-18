@@ -20,7 +20,8 @@
 
 // import './es6/c'
 // import './node/c.node'
-import './name'
+// import './name'
+import './merge'
 
 let hello: string = 'Hello Typescript!'
 
