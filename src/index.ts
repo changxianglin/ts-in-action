@@ -14,7 +14,8 @@
 
 // import './uniontype'
 
-import './indexAdvance'
+// import './indexAdvance'
+import './mapping'
 
 let hello: string = 'Hello Typescript!'
 
