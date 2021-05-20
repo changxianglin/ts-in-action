@@ -2,14 +2,14 @@ import $ from 'jquery'
 
 $('.app').css('color', 'red')
 
-globalLib({ x: 1 })
-globalLib.doSomething()
+// globalLib({ x: 1 })
+// globalLib.doSomething()
 
-import moduleLib from './module-lib'
-moduleLib.doSomething()
+// import moduleLib from './module-lib'
+// moduleLib.doSomething()
 
 // import umbLib from './umd-lib'
-umbLib.doSomething()
+// umbLib.doSomething()
 
 import m from 'moment'
 
