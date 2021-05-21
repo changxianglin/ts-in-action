@@ -7,9 +7,11 @@ module.exports = {
     // output: {
     //     filename: '[name].[chunkhash:8].js'
     // },
-    entry: './src/index.ts',
+    entry: {
+        app: './src/index.tsx',
+    },
     output: {
-        filename: 'app.js'
+        filename: '[name].[chunkhash:8].js'
     },
     resolve: {
         // extensions: ['.js', '.jsx']
@@ -40,4 +42,9 @@ module.exports = {
     //         chunks: 'all'
     //     }
     // }
+    optimization: {
+        splitChunks: {
+            chunks: 'all'
+        }
+    }
 }

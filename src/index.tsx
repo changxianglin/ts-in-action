@@ -21,10 +21,20 @@
 // import './es6/c'
 // import './node/c.node'
 // import './name'
-import './merge'
+// import './merge'
 
-import './lib/index'
+// import './lib/index'
 
-let hello: string = 'Hello Typescript!'
+// let hello: string = 'Hello Typescript!'
 
-document.querySelectorAll('.app')[0].innerHTML = hello
+// document.querySelectorAll('.app')[0].innerHTML = hello
+
+import React from 'react'
+import ReactDOM from 'react-dom'
+
+import Hello from './components/demo/Hello'
+
+ReactDOM.render(
+  <Hello name="TypeScript!" />,
+  document.querySelectorAll('.app')[0]
+)
